@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.error {
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    margin: 0 auto;
+}
+form {
+    width: 200px;
+    margin: 10px auto;
+    border: 2px dashed black;
+    padding: 25px;
+}
+    form h2 {
+        text-align: center;
+    }
+    form input {
+        width:150px;
+        margin-bottom: 15px;
+    }
+    form a {        
+        font-size: 12px;
+    }
+h1 {
+    text-align: center;
+    margin: 30px auto;
+    margin-top: 50px;            
+}
+

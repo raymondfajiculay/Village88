@@ -1,0 +1,16 @@
+label {
+    display: block;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 2rem;
+}
+
+p {
+    color: red;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form_container,
+.process_container {
+    text-align: center;
+    width: 300px;
+    margin: 5rem auto;
+    border: 0.1rem solid #000;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.process_container {
+    text-align: left;
+}
+
+.process_container p {
+    margin: 2rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label,
+form input[type="submit"] {
+    margin-top: 0.5rem;
+    padding: 1rem 0;
+}
+
+form input[type="submit"] {
+    align-self: center;
+    padding: 0.5rem 1rem;
+}
+
+form textarea {
+    width: 100%;
+    height: 8rem;
+}
+
+a,
+input[type="submit"] {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    background-color: #000;
+    border-radius: 0.5rem;
+    border: none;
+}

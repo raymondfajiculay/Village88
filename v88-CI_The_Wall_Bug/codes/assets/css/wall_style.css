@@ -1,0 +1,86 @@
+*,
+*:before,
+*:after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav {
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+    nav * {
+        display:inline-block;
+        vertical-align: top;
+    }
+    nav p {
+        position: absolute;
+        right: 15%;
+    }
+    nav a {
+        position: absolute;
+        right: 5%;
+    }
+form * {            
+    display: block;
+    margin-top: 10px;
+}   
+h2 {
+    margin-left: 20%;
+    margin-top:5%;
+}    
+form {
+    width: 60%;
+    margin: 10px 20% 40px 20%;
+    position: relative;
+}
+    form * {            
+        display: block;
+        margin-top: 10px;
+    }
+     form textarea {
+        width:100%;
+        height: 80px;
+    }
+     form input[type="submit"] {
+        position: absolute;
+        right: 1px;        
+        background-color: #2A76E1;
+        padding: 5px;
+    }
+textarea {
+        width:350px;
+        height:100px;
+}
+input[type="submit"] {
+    display: block;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+}
+form.comment_form {
+    margin-left: 22%;
+    margin-top:10px;
+}
+    form.comment_form label {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+body h3, body p {
+    margin-left: 20%;    
+}
+body h3 + p, body h4 + p {
+    margin-top:5px;
+}
+body h4 {
+    margin-top: 15px;
+}
+    body h4, body h4 + p {
+        margin-left: 22%;
+    }
+form:last-child {
+    margin-bottom: 100px;
+}

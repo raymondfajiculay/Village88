@@ -1,0 +1,28 @@
+Assignment: The Wall (Bug)
+
+Objectives:
+- To practice the Debugger tool in VSCode in finding possible causes of error.
+- To have you familiar on errors and solutions that possibly you may encounter in the future.
+
+Instruction: 
+Using Debugger Tool, try to investigate the lines that are root cause of bugs specified in the list and correct it to make the whole web app functional.
+
+These are the possible reasons of error in the codebase that should be fixed:
+
+1. You may be using a function from a helper that is not loaded yet. (Ex. 'url', 'security')
+2. You may be using a function from a model that is not loaded yet. (Ex. 'comment', 'message')
+3. Encountering 403 (Forbidden) where form request is not allowed by the enabled CSRF Protection due to form's missing token. 
+4. Calling a function but forgot to pass the required parameter/s. 
+5. Missing form validation. (Ex. Input field 'email' should be valid, not null).
+6. Being redirected to a missing page which caused by wrong route path. (You may check the routes.php)
+7. You might be comparing values with different format. (Ex. Comparing a normal character string over the encrypted string). Check the model and see if you need to convert the string.
+8. You might initialized a variable with incorrect, hardcoded value. (Ex. hidden input field is initialized to a normal string instead of an id).
+9. The controller/model can't find the specific data from submitted form due to mispelled name in one of the form's input field.
+ 
+Tips:
+- Use breakpoints to highlight the lines you want to investigate and see if the program will go to it.
+- Use 'Watch' feature in the Debugger tool to monitor the value of variable/s.
+- Use 'Step Into' to dig through the called function. 
+- Use 'Step Over' to go to next lines.
+
+Goodluck and Happy coding!
